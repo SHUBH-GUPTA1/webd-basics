@@ -1,0 +1,16 @@
+h2{
+    color:rgb(76, 207, 106);
+    background-color: gold;
+}
+      
+button{
+    color: red;
+    background-color:#ee82ee;               /*hexadecimal colors*/
+}
+p{
+    color:fuchsia;
+    background-color:wheat;
+}
+body{
+    background-color:#CC55EE;          /*OR we can write hexa as C5E*/
+}

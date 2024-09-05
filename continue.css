@@ -1,0 +1,16 @@
+section{
+    width:500px;
+    height:500px;
+    background-color:magenta;
+}
+#rgba{
+    width:50%;
+    height: 50%;
+    background-color:rgba(222,136,69,0.8) ;
+}
+#opacity{                                                /*degree to which content behind an element is hidden*/
+    width:50%;
+    height: 50%;
+    background-color:rgb(255, 38, 0);
+    opacity:0.8;
+}

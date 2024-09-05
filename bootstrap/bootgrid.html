@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid system</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+    <h1 class="display-1 text-center text-primary">The Grid System</h1>
+    <div class="row">            <!--grid has always 12 spaces-->
+    <div class="col-2 bg-primary">I'M 2 Units</div>   
+    <div class="col-8 bg-success">I'M 8 Units</div>    
+    <div class="col-2 bg-danger">I'M 2 Units</div>   
+    </div>
+
+    <div class="row">            
+        <div class="col-3 bg-primary">I'M 3 Units</div>   
+        <div class="col-6 bg-success">I'M 6 Units</div>    
+        <div class="col-3 bg-danger">I'M 3 Units</div>   
+        </div>
+        <div class="container">          <!--Nesting a container-->
+        <div class="row">            
+            <div class="col bg-primary">I'm Auto Sized</div>   
+            <div class="col bg-success">I'm Auto Sized</div>    
+            <div class="col bg-danger">I'm Auto Sized</div>   
+            <div class="col bg-info">I'm Auto Sized</div>   
+            </div>
+            <h2 class="display-2">Responsive Grid</h2>
+            <div class="row">
+                <div class="col-md-6 col-xl-3 bg-info"><!--column xtra large & above it will take 3 spaces&same for medium &above it will take 6 spaces-->
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolores libero dolorem aliquam minus officiis voluptatibus velit, accusantium necessitatibus est ut alias et corrupti delectus! Aperiam omnis vitae est doloribus.
+                </div>
+                <div class="col-md-6 col-xl-3 bg-success">  <!--(no-gutter) for padding no space #grid me dekho likha hai -->
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolores libero dolorem aliquam minus officiis voluptatibus velit, accusantium necessitatibus est ut alias et corrupti delectus! Aperiam omnis vitae est doloribus.
+                </div>
+                <div class="col-md-6 col-xl-3 bg-info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolores libero dolorem aliquam minus officiis voluptatibus velit, accusantium necessitatibus est ut alias et corrupti delectus! Aperiam omnis vitae est doloribus.
+                </div>
+                <div class="col-md-6 col-xl-3 bg-success">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolores libero dolorem aliquam minus officiis voluptatibus velit, accusantium necessitatibus est ut alias et corrupti delectus! Aperiam omnis vitae est doloribus.
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <h2 class="display-4">Grid Alignment</h2>
+                <div class="col-md-3  bg-danger">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius provident dignissimos at maiores veniam nulla eos explicabo quae perspiciatis ipsum neque quasi, non commodi perferendis ut accusantium error magni! Quasi?
+                </div>
+                <div class="col-md-3 bg-warning">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius provident dignissimos at maiores veniam nulla eos explicabo quae perspiciatis ipsum neque quasi, non commodi perferendis ut accusantium error magni! Quasi?
+                </div>
+                <div class="col-md-3 bg-success">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius provident dignissimos at maiores veniam nulla eos explicabo quae perspiciatis ipsum neque quasi, non commodi perferendis ut accusantium error magni! Quasi?Lorem ipsum dolor sit, amet consectetur adipisicing elit. At ab eveniet minima asperiores quo a possimus laborum id earum illum consequatur porro, ad repellat est unde quas explicabo labore soluta?
+                </div>
+                <div class="col-md-3 bg-info align-self-end">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius provident dignissimos at maiores veniam nulla eos explicabo quae perspiciatis ipsum neque quasi, non commodi perferendis ut accusantium error magni! Quasi?
+                </div>
+            </div>
+            <h3 class="display-3">Justify content</h3>
+            <div class="row border justify-content-start justify-content-lg-between">
+                <div class="col-4 bg-primary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dicta praesentium numquam eaque repellat assumenda perferendis, quis quidem odio! Culpa itaque illo accusantium cumque officia, amet suscipit? Inventore, praesentium libero.
+                </div>
+                <div class="col-4 bg-info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dicta praesentium numquam eaque repellat assumenda perferendis, quis quidem odio! Culpa itaque illo accusantium cumque officia, amet suscipit? Inventore, praesentium libero.
+                </div>
+            </div>
+        </div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+h1{
+    background-color: palegoldenrod;
+    border: 1px solid black;
+    /* display:inline; */
+    width:300px;                    /*block elements respected they affect height width padding & all*/
+    height:200px;
+    padding:50px;
+    margin:100px;
+
+}
+span{
+    /* background-color:aqua; */
+    border:1px solid black;
+   width:100px;                     /*inline element doesnt affect height or width it can affect padding*/
+   padding:50px;
+   margin:50px;
+}
+div{
+    height: 200px;
+    width:200px;
+    background-color: olivedrab;
+    border:5px solid black;
+    display:inline-block;                /*inline block behaved like an inline element except width,height,margin&padding are respected*/
+    margin:50px;
+}

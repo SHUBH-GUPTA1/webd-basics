@@ -1,0 +1,75 @@
+*{
+    color:rgb(0, 255, 136);
+    background-color:black;         /*universal selector*/
+}
+button{
+    font-size:20px;
+    border-color: deeppink;
+}
+h1,h2{
+    color:cyan;
+}
+#submit2{                              /*id selector*/
+    color:darkmagenta;
+       background-color:deepskyblue;
+}
+span{
+    color:crimson;
+}
+.tags{                                /*class selector*/
+    background-color:gold;
+    font-size:10px;
+}
+footer a{
+    color:tomato;
+    text-decoration: none;
+    font-weight:800;
+}
+.immense a{                         /*descendant selector*/
+    color:lightseagreen;
+}
+h3 + button{                       /*adjacent selector*/ /*just after that h3*/
+    font-size:25px;
+    background-color: brown;
+}
+footer > a{                        /*imp*/
+    color:yellow;
+}
+input[type="password"]{           /*attribute selectors*/
+    color:hotpink;
+}
+a[href*="thanks"]{                       /*without * it also works*/
+    color:blanchedalmond;
+}
+a:hover{                                /*bring cursor to that button color will change*/
+    text-decoration: overline;
+}
+ button:active{                        /*active-hold the button & release*/
+    background-color:lightcyan;
+}
+.immense:nth-of-type(2n){
+    background-color:darkkhaki;
+}
+h2::first-letter{                       /*pseudo elements*/
+    font-size: 60px;
+    color:white;
+}                                                                      /*inline styles are used in html doc not in css doc so they r more specific*/
+p::first-line{                                                             /*INLINE STYLES>ID>CLASS>ELEMNETS*/ /*SPECIFICITY ORDER*/
+    color:red;
+}
+p::selection{
+    background-color:lightgoldenrodyellow;
+}
+::selection{
+    background-color:yellow;
+}
+button:hover{                        /*pseudo classes*/
+    color:aqua;
+    background-color:darkkhaki;
+}
+.immense button:hover{
+    background-color:blueviolet;
+}
+button{
+    background-color:magenta !important;  
+     }                                                  /*!important is an exception it will overwrite any color

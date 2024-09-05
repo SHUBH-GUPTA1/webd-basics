@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    font-weight:500;
+    text-decoration: blue underline wavy;
+    letter-spacing: 15px;
+    font-size:50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;            /*if my laptop don not support verdana it will go for geneva if not then tahoma*/
+}
+p{
+    text-align: left;
+    line-height: 1.5em;
+}
+a{
+     text-decoration: none;
+}

@@ -1,0 +1,11 @@
+section{
+    width:80%;
+    height:800px;
+    background-image: url(https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/1/alley-by-the-lake-leonid-afremov.jpg);
+    background-size: cover;            /*cover-covers the image as larger as possible in the box*/ /*no repeat*/
+    margin:0 auto;                      /*contain-covers image as large as possible without shrinks or stretch*/
+}                                       /*background-position,background-repeat etc*/
+h1{                                     /*if we have to write background in 1 line we cant write(center cover)we have to write (center/cover)*/
+    font-size:100px;
+    color:white;
+}
